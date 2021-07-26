@@ -1,0 +1,178 @@
+/* Write your CSS here */
+.mm-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mm-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.mm-profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.t-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-container {
+  width: 300px;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 20px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.label {
+  color: #7e858e;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  font-family: Roboto;
+  font-size: 14px;
+  border: 2px solid #cbd5e1;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.input-select {
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  font-family: Roboto;
+  font-size: 14px;
+  border: 2px solid #cbd5e1;
+  font-weight: 500;
+  padding-left: 10px;
+  color: #7e858e;
+}
+
+.add-button {
+  font-family: Roboto;
+  font-size: 15px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  padding: 6px;
+  color: #ffffff;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.f-heading {
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+  min-width: 300px;
+  flex-grow: 1;
+  border: 2px solid #cbd5e1;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  height: 370px;
+  overflow: auto;
+}
+
+.history-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid #cbd5e1;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.title-width {
+  width: 80px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ul-container {
+  list-style: none;
+  width: 295px;
+  margin-left: -40px;
+  overflow: auto;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+span {
+  color: #0b69ff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .mm-card-container {
+    width: 750px;
+  }
+  .mm-profile-container {
+    text-align: left;
+  }
+  .t-bg-container {
+    flex-direction: row;
+  }
+  .form-container {
+    margin-right: 20px;
+  }
+  .title-width {
+    width: 100px;
+  }
+  .ul-container {
+    width: 425px;
+  }
+}

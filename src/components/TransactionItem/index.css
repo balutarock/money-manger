@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.li-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #cbd5e1;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.delete-img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.li-title {
+  width: 100px;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 10px;
+  color: #7e858e;
+}
+
+.li-title-e {
+  width: 100px;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-size: 10px;
+  flex-grow: 1;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+.button-img {
+  border-width: 0px;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .li-title {
+    width: 95px;
+  }
+}
